@@ -1,9 +1,9 @@
 # Atividade2Parte1
 
-vamos responder algumas perguntas referente a primeira parte da segunda atividade !!!!
+#vamos responder algumas perguntas referente a primeira parte da segunda atividade !!!!
 
 <br>
-***Questões
+###Questões:
 <br>
 
 **1. Explique o que é JSON e por que ele se tornou tão popular para troca de dados

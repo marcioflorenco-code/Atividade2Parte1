@@ -2,8 +2,8 @@
 
 ### vamos responder algumas perguntas referente a primeira parte da segunda atividade !!!!
 
-<br>
 
+****
 ## Questões:
 
 
@@ -22,12 +22,12 @@ você usaria para:**
 **4. Qual a vantagem de usar template strings (``) em vez de concatenação com +
 para criar strings complexas**
 
-<br>
+****
 
 ## vamos para as respostas :
 
-<br>
+****
 
 **1- JSON(JavaScript Object Notation) e uma formato de texto simples e legivel para todos , sendo ela muitas vezes , usada para organizaçao e troca de informaçoes de forma estrutural , ideal para a comunicação entre diferentes sistemas, como entre um servidor e um aplicativo da web , outro exemplo muito comum de ser visto e usado e para APIs e a comunicação entre front-end e back-end ,que precisam de uma troca de dados muitas vezes leve e eficiente entre si**
 
-<br>
+****

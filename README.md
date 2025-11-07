@@ -25,4 +25,4 @@ para criar strings complexas**
 
 ## vamos para as respostas :
 
-**1- JSON(JavaScript Object Notation) e uma formato de texto simples e legivel para todos , sendo ela muitas vezes , usada para organizaçao e troca de informaçoes de forma estrutural , ideal para a comunicação entre diferentes sistemas, como entre um servidor e um aplicativo da web , outro exemplo muito comum de ser visto e usado e de APIs e a comunicação entre front-end e back-end ,que precisam de uma troca de dados muitas vezes leve e eficiente entre si
+**1- JSON(JavaScript Object Notation) e uma formato de texto simples e legivel para todos , sendo ela muitas vezes , usada para organizaçao e troca de informaçoes de forma estrutural , ideal para a comunicação entre diferentes sistemas, como entre um servidor e um aplicativo da web , outro exemplo muito comum de ser visto e usado e para APIs e a comunicação entre front-end e back-end ,que precisam de uma troca de dados muitas vezes leve e eficiente entre si**

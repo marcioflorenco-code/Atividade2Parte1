@@ -36,6 +36,7 @@ um exemplo de JSON
 "idade": "22";
 "nome": "Marcio";
 "cidade": "guarabira";
+"curso": "TSI";
 }
 ```
 
@@ -60,7 +61,7 @@ const obj = JSON.parse(JsonString);
 console.log(obj.curso);//saida =TSI
 ```
 ****
-**R2** Agora vamos aplicar metodos :
+**R3** Agora vamos aplicar metodos :
 
 **Verificar se contém a palavra "Script"**
 ```js
@@ -80,3 +81,21 @@ const alteracao = frase.replace ("baseada","tem origem");
 console.log(alteracao);//saida = JavaScript é tem origem em ECMA Script
 ```
 ****
+**R4** As template String , sao ultilizadas crases (``) , e tende a torna o codigo mais limpo onde perimte inserir variaveis diretamnete dentro da String . tendo mais dinamicas entre si , alem da facilidade de se usar multiplas linhas sem precisar usar \n , alem de reduçao de erros da concatenaçao 
+
+**Exemplo com concatenação (+)**
+```js
+const nome = "Marcio";
+const curso = TSI; 
+const frase = "Olá " + nome + ", você faz " + curso + " na IFPB. ";
+console.log(texto);
+```
+**Exemplo com template string:(``):**
+```js
+const nome = "Marcio";
+const curso = TSI; 
+const frase =`Olá ${nome} você faz $(curso) na IFPB.`;
+console.log(texto);
+```
+
+nota-se a diferença entre elas onde usando template string ficou mais organizando facilitando ate seu entendimento e funcionamento. 

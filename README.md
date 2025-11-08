@@ -53,13 +53,11 @@ const estudante = { aluno: "Marcio", cidade: "guarabira" , curso: "TSI" }
 
 //converter de objeto JavaScript para JSON
 const JsonString =JSON.String(estudante);
-console.long(JsonString);
-//saida = { aluno: "Marcio", cidade: "guarabira" , curso: " }
+console.long(JsonString);//saida = { aluno: "Marcio", cidade: "guarabira" , curso: " }
 
 //converter de volta para objeto
 const obj = JSON.parse(JsonString);
-console.log(obj.curso);
-//saida =TSI
+console.log(obj.curso);//saida =TSI
 ```
 ****
 **R2** Agora vamos aplicar metodos :
@@ -76,8 +74,9 @@ const frasenova = ftase.replace("JavaScript","");
 console.log(frasenova);//saida = "é baseada em ECMA Script"
 ```
 **Substituir "baseada" por "tem origem"**
+```js
 const frase = "JavaScript é baseada em ECMA Script";
 const alteracao = frase.replace ("baseada","tem origem");
 console.log(alteracao);//saida = JavaScript é tem origem em ECMA Script
-
+```
 ****

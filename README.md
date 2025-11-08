@@ -32,9 +32,11 @@ para criar strings complexas**
 
 um exemplo de JSON
 ```js
+{
 "idade": "22";
 "nome": "Marcio";
 "cidade": "guarabira";
+}
 ```
 
 ****

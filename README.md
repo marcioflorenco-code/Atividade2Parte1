@@ -61,3 +61,23 @@ const obj = JSON.parse(JsonString);
 console.log(obj.curso);
 //saida =TSI
 ```
+****
+**R2** Agora vamos aplicar metodos :
+
+**Verificar se contém a palavra "Script"**
+```js
+const frase = "JavaScript é baseada em ECMA Script";
+frase.incluides("Script"); // true
+```
+**Remover a palavra "JavaScript" e gerar uma nova string**
+```js
+const frase = "JavaScript é baseada em ECMA Script";
+const frasenova = ftase.replace("JavaScript","");
+console.log(frasenova);//saida = "é baseada em ECMA Script"
+```
+**Substituir "baseada" por "tem origem"**
+const frase = "JavaScript é baseada em ECMA Script";
+const alteracao = frase.replace ("baseada","tem origem");
+console.log(alteracao);//saida = JavaScript é tem origem em ECMA Script
+
+****

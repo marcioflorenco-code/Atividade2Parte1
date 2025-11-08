@@ -31,7 +31,7 @@ para criar strings complexas**
 **R1**    JSON(JavaScript Object Notation) e um formato de texto simples e legivel para todos , sendo ela muitas vezes , usada para organizaçao e troca de informaçoes de forma estrutural , ideal para a comunicação entre diferentes sistemas, como entre um servidor e uma aplicação web , outro exemplo muito comum de ser visto e usado,é para APIs, e a comunicação entre front-end e back-end ,que precisam de uma troca de dados muitas vezes leve e eficiente entre si , por conta disso ela se tornou tão popular pois muitas vezes por ter uma linguagem facil de se entender.
 
 um exemplo de JSON
-```
+```js
 "idade": "22";
 "nome": "Marcio";
 "cidade": "guarabira";

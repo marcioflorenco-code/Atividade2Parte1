@@ -98,4 +98,4 @@ const frase =`Olá ${nome} você faz $(curso) na IFPB.`;
 console.log(texto);
 ```
 
-nota-se a diferença entre elas onde usando template string ficou mais organizando facilitando ate seu entendimento e funcionamento. 
+nota-se a diferença entre elas onde usando template string ficou mais organizando facilitando ate seu entendimento. 

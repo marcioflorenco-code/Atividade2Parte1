@@ -40,4 +40,24 @@ um exemplo de JSON
 ```
 
 ****
-**R2**   
+**R2**   Esses dois metodos **JSON.stringify()** e **JSON.parse()** servem como coversores de dados onde :
+
+**●JSON.stringify()** :serve para converter um objeto JavaScript para uma string JSON , e muitas vezes usado para quando queremos enviar dados para um servidor, ou, salvar dados dentro de um arquivo.
+
+**●JSON.parse()** :ja nesse caso conseguimos converter de uma string JSON para um objeto JavaScript, onde nele temos a possibilidade de receber dados , seja de um servidor ou de onde ele estive alocado , para usar-mos no codigo.
+
+A SEGUIR VEJA O EXEMPLO DE COMO ELAS SAO ULTILIZADAS:
+```js
+//objeto JavaScript
+const estudante = { aluno: "Marcio", cidade: "guarabira" , curso: "TSI" }
+
+//converter de objeto JavaScript para JSON
+const JsonString =JSON.String(estudante);
+console.long(JsonString);
+//saida = { aluno: "Marcio", cidade: "guarabira" , curso: " }
+
+//converter de volta para objeto
+const obj = JSON.parse(JsonString);
+console.log(obj.curso);
+//saida =TSI
+```
